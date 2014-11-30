@@ -42,11 +42,14 @@ import javax.swing.*;
         add("North", top);
         
         // creating the text area previously declared as "textArea"
-        textArea.setBackground(Color.yellow);
+        
+        
         textArea.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 12));
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
         textArea.setPreferredSize(new Dimension(560, 200));
+        // changes the background colour of the text area
+        textArea.setBackground(Color.yellow);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         scrollPane.setPreferredSize(new Dimension(560, 200));
         
