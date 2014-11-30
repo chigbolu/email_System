@@ -60,6 +60,7 @@ import javax.swing.*;
         JPanel bottom = new JPanel();
         bottom.add(send);
         send.addActionListener(this);
+        send.setBackground(Color.lightGray);
         add("South",bottom);
 
        
